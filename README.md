@@ -1,6 +1,6 @@
 # Hacker News
 
-This solution is purely done in es6. This is frameworkless sigle page app.
+This solution is purely done in es6. This is frameworkless single page app.
 ##### Build Tool
 Gulp is used as build tool for this solution.
 ##### Test Runner
