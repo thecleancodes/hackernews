@@ -11,7 +11,7 @@ Cypress is used for integration testing
 3) Once installed, load (double click) the ```index.html``` into a browser
 ##### Running the integration tests
  1) Go to the root folder of the solution
- 2) Run ```npm run cypress```
+ 2) Run ```npm run test```
  3) Select Hackernews_spec.js from Cypress test runner window
  4) This will open a new browser window and start executing the scripts.
 
