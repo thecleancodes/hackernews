@@ -1,0 +1,75 @@
+body  { font-family:Verdana, Geneva, sans-serif; font-size:10pt; color:#828282; 
+    margin: auto 0;
+}
+
+.comhead { font-family:Verdana, Geneva, sans-serif; font-size:  8pt; color:#817b7b; 
+            ;font-weight: 900; }
+.comment { 
+    font-family:Verdana, Geneva, sans-serif; font-size:  9pt;  
+    background-color: #efefef;
+    margin:20px;
+    padding: 20px;
+}
+
+.comment a:link, .comment a:visited { text-decoration: underline; }
+
+.hackernews{
+    width: 100%;
+    background-color: rgb(255, 102, 0);
+    height: 24px;
+    padding: 3px;
+    color:black;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+a:link    { color:#000000; text-decoration:none; }
+a:visited { color:#828282; text-decoration:none; }
+
+li{
+    height: 24px;
+}
+.loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  .animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+  }
+  
+  @-webkit-keyframes animatebottom {
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+  }
+  
+  @keyframes animatebottom { 
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+  }
